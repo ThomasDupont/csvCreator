@@ -1,0 +1,28 @@
+{
+	"name": "thomasdupont/csv",
+	"description": "Lightweight and scalable way of creating CSV files that displays correctly on all platforms.",
+	"type": "library",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Thomas Dupont",
+		}
+	],
+	"minimum-stability": "stable",
+	"require": {
+		"php": "~5.5"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "4.7.7"
+	},
+	"autoload": {
+		"psr-4": {
+			"CsvCreate\\Csv\\": "src/"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"Test\\CsvCreate\\Csv\\": "tests/"
+		}
+	}
+}
